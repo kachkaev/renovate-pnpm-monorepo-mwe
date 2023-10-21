@@ -1,0 +1,11 @@
+{
+  "name": "@apps/b",
+  "private": true,
+  "version": "0.0.0-private",
+  "dependencies": {
+    "@local/eslint-config": "0.0.0-private",
+    "@local/tsconfig": "0.0.0-private",
+    "eslint": "8.50.0",
+    "next": "13.5.1"
+  }
+}
