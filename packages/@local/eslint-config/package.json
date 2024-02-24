@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0-private",
   "dependencies": {
-    "eslint": "8.50.0",
+    "eslint": "8.57.0",
     "eslint-plugin-unicorn": "48.0.0"
   }
 }
