@@ -11,10 +11,10 @@ importers:
   apps/a:
     dependencies:
       '@local/eslint-config':
-        specifier: 0.0.0-private
+        specifier: workspace:0.0.0-private
         version: link:../../packages/@local/eslint-config
       '@local/tsconfig':
-        specifier: 0.0.0-private
+        specifier: workspace:0.0.0-private
         version: link:../../packages/@local/tsconfig
       eslint:
         specifier: 8.50.0
@@ -26,10 +26,10 @@ importers:
   apps/b:
     dependencies:
       '@local/eslint-config':
-        specifier: 0.0.0-private
+        specifier: workspace:0.0.0-private
         version: link:../../packages/@local/eslint-config
       '@local/tsconfig':
-        specifier: 0.0.0-private
+        specifier: workspace:0.0.0-private
         version: link:../../packages/@local/tsconfig
       eslint:
         specifier: 8.50.0
